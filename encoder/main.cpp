@@ -1,8 +1,10 @@
-#include <QCoreApplication>
+#include <string>
+#include <iostream>
+#include "enter.h"
 
-int main(int argc, char *argv[])
+int main()
 {
-    QCoreApplication a(argc, argv);
-
-    return a.exec();
+// std::string *ptrmessage1;
+  std::string message1;
+  enter(&message1);
 }
