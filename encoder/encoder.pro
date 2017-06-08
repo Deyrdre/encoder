@@ -11,7 +11,9 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     enter.cpp \
-    key.cpp
+    key.cpp \
+    encoder.cpp \
+    ascii.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -26,4 +28,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 HEADERS += \
     enter.h \
-    key.h
+    key.h \
+    encoder.h \
+    ascii.h
