@@ -11,7 +11,7 @@ int main()
   std::string message;
   enter(&message);
   std::string key;
-  std::cout << "Lenght of the message is " << message.length() << std::endl;
+  //std::cout << "Lenght of the message is " << message.length() << std::endl;
   keygen(message.length(), &key);
   std::string message_code;
   symbol_code(message.length(), &message_code, message);
@@ -24,4 +24,5 @@ int main()
   std::string final_final_message;
   encoder(&mass_message[0], &mass_key[0], message.length(), &final_message[0], final_final_message);
   return 0;
+  std::cin;
 }

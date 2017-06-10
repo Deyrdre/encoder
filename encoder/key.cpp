@@ -4,7 +4,7 @@
 
 int keyupdate()
 {
-    int random_value = rand() %100;
+    int random_value = rand() %100 + 1;
     return random_value;
 }
 
