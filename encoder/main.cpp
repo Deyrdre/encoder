@@ -23,6 +23,6 @@ int main()
   int final_message[message.length()];
   std::string final_final_message;
   encoder(&mass_message[0], &mass_key[0], message.length(), &final_message[0], final_final_message);
+  std::getline(std::cin, message);
   return 0;
-  std::cin;
 }
