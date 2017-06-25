@@ -33,7 +33,7 @@ private:
             std::cout << final_message << std::endl;
             std::cout << string_key << std::endl;
         }
-    void run_all()
+    void run_all() //функция для вызова механизма кодирования из паблика
         {
             input_message();
             key_message();

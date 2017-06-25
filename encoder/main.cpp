@@ -1,10 +1,9 @@
 #include <string>
 #include <iostream>
-#include "encoder_1_1.h"
 #include <vector>
+#include "encoder11.h"
 
 int main()
 {
-    Encoded_message message();
-    message.start();
+    return 0;
 }

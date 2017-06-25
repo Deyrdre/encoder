@@ -1,13 +1,10 @@
-#ifndef ENCODER_1_1_H
-#define ENCODER_1_1_H
+#ifndef ENCODER11_H
+#define ENCODER11_H
 class Encoded_message
 {
     private:
             void input_message();
-            //std::vector <int> massive_key;
-            std::string string_key;
             void key_message();
-            std::string final_message;
             void encoding();
             void sharing();
             void run_all();
@@ -15,4 +12,4 @@ class Encoded_message
             Encoded_message();
             void start();
 };
-#endif // ENCODER_1_1_H
+#endif // ENCODER11_H

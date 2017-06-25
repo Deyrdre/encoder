@@ -15,7 +15,7 @@ SOURCES += main.cpp \
     encoder.cpp \
     ascii.cpp \
     string_to_int.cpp \
-    encoder_1_1.cpp
+    encoder11.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -34,4 +34,4 @@ HEADERS += \
     encoder.h \
     ascii.h \
     string_to_int.h \
-    encoder_1_1.h
+    encoder11.h
