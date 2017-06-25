@@ -5,6 +5,6 @@
 
 int main()
 {
-    Encoded_message message1();
-    message1.start_encoder();
+    Encoded_message message();
+    message.start();
 }
