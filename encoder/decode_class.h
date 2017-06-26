@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-class decode
+class Decode
 {
 public:
     std::vector<int> key;
@@ -13,7 +13,7 @@ public:
     int parse (std::vector<int>& mes, std::string& message);
     int enter_mes ();
 
-    decode();
+    Decode();
 };
 
 #endif // DECODE_CLASS_H
