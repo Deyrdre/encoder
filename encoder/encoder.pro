@@ -10,11 +10,6 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES += main.cpp \
-    enter.cpp \
-    key.cpp \
-    encoder.cpp \
-    ascii.cpp \
-    string_to_int.cpp \
     encoder11.cpp
 
 # The following define makes your compiler emit warnings if you use
@@ -29,9 +24,4 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 HEADERS += \
-    enter.h \
-    key.h \
-    encoder.h \
-    ascii.h \
-    string_to_int.h \
     encoder11.h
